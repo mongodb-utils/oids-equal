@@ -2,7 +2,7 @@
 var ObjectID = require('mongodb').ObjectID
 var assert = require('assert')
 
-var equal = require('./')
+var equal = require('..')
 
 describe('OIDs Equal', function () {
   it('should return false if not equal', function () {
